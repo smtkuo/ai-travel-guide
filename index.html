@@ -1,6 +1,76 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Travel Guide - Discover Travel Destinations with AI Recommendations</title>
+    <meta name="description" content="Discover the best travel destinations worldwide with AI-powered recommendations. Find historical sites, cultural experiences, food spots, and nature attractions in any city.">
+    <meta name="keywords" content="travel guide, AI travel recommendations, city guide, tourist attractions, historical sites, cultural experiences, food spots, travel planning, destination finder">
+
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "AI Travel Guide",
+      "description": "A modern web application that helps users discover travel destinations with AI-powered recommendations.",
+      "url": "http://ai-travel-guide.projelerim.tr/",
+      "applicationCategory": "TravelApplication",
+      "genre": "travel",
+      "browserRequirements": "Requires JavaScript. Requires HTML5.",
+      "softwareVersion": "1.0.0",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- FAQ Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How does AI Travel Guide work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI Travel Guide uses artificial intelligence to recommend travel destinations based on your preferences. Simply enter your destination, select your language, choose your interests (Historical, Cultural, Food, Nature), and the AI will provide personalized recommendations."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Do I need an API key to use AI Travel Guide?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you need a RapidAPI key to use AI Travel Guide. You can get one by signing up at RapidAPI and subscribing to the Travel Guide API. The API key is required to fetch destination recommendations."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What types of destinations can I discover?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can discover various types of destinations including historical sites, cultural attractions, food spots, and nature locations. The recommendations are based on your selected interests and the destination city you choose."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can I share my search results with others?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can share your search results. The application uses URL-based state management, which means all your search parameters and results are encoded in the URL. Simply share the URL to share your exact search results."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is AI Travel Guide available in multiple languages?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, AI Travel Guide supports multiple languages including English, Turkish, Spanish, French, and German. The application automatically detects your browser language and sets it as the default, but you can change it anytime."
+        }
+      }]
+    }
+    </script>
+
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
